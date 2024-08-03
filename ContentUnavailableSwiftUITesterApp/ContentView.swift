@@ -6,16 +6,15 @@
 //
 
 import SwiftUI
+import ContentUnavailableSwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        ContentUnavailableView(
+            systemImageName: "bookmark",
+            title: "No Saved Episodes",
+            description: "Save episodes you want listen to later, and they'll show up here."
+        )
     }
 }
 

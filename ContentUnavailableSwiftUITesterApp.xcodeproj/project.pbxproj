@@ -3,8 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA683402C5EB05E00940D56 /* ContentUnavailableSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0BA6833F2C5EB05E00940D56 /* ContentUnavailableSwiftUI */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BA683242C5EAFDD00940D56 /* ContentUnavailableSwiftUITesterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContentUnavailableSwiftUITesterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +23,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA683402C5EB05E00940D56 /* ContentUnavailableSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +66,7 @@
 			);
 			name = ContentUnavailableSwiftUITesterApp;
 			packageProductDependencies = (
+				0BA6833F2C5EB05E00940D56 /* ContentUnavailableSwiftUI */,
 			);
 			productName = ContentUnavailableSwiftUITesterApp;
 			productReference = 0BA683242C5EAFDD00940D56 /* ContentUnavailableSwiftUITesterApp.app */;
@@ -90,6 +96,9 @@
 				Base,
 			);
 			mainGroup = 0BA6831B2C5EAFDC00940D56;
+			packageReferences = (
+				0BA6833E2C5EB05E00940D56 /* XCLocalSwiftPackageReference "../content-unavailable-swiftui" */,
+			);
 			productRefGroup = 0BA683252C5EAFDD00940D56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -319,6 +328,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0BA6833E2C5EB05E00940D56 /* XCLocalSwiftPackageReference "../content-unavailable-swiftui" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../content-unavailable-swiftui";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0BA6833F2C5EB05E00940D56 /* ContentUnavailableSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ContentUnavailableSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0BA6831C2C5EAFDC00940D56 /* Project object */;
 }
